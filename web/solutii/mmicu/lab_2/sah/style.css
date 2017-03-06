@@ -1,0 +1,22 @@
+body{
+    background-color: #ccc;
+}
+td {
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+}
+tr:nth-child(2n-1) td:nth-child(odd)
+{
+    background-color: red;
+}
+
+tr:nth-child(2n) td:nth-child(even)
+{
+    background-color: red;
+}
+
+tr:nth-child(7) td:before, tr:nth-child(2) td:before
+{
+    content: 'p';
+}
