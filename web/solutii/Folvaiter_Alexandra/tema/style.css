@@ -1,0 +1,60 @@
+body
+	{
+		background-repeat: no-repeat;
+		background-image: url("images/c42ac6a0c2aaee69c79955d1d32c54b4_large.jpeg");
+		background-size: 1400px;
+	}
+		@font-face
+	{
+		font-family: FontulMeu;
+		src: url(sansation_light.woff);
+	}
+	#corp_principal
+	{
+		background-color: white;
+		margin-top: 250px;
+		margin-right: 170px;
+		margin-left: 170px;
+		padding: 10px;
+		margin-bottom: 100px;
+		border: solid 1px;
+		font-family: FontulMeu;
+	}
+	.text1
+	{
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 10px;
+		text-align: justify;
+		font-size: 1.3em;
+		color:#B40431;
+	}
+	.text2
+	{
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 10px;
+		text-align: justify;
+		display: flex;
+	}
+	#quiz
+	{
+		padding-right: 10px;
+		padding-top: 10px;
+		text-align: justify;
+		padding-left: 200px;
+	}
+	#sec-p
+	{
+		color: #04B45F;
+		font-size: 1.001em;
+	}
+	img
+	{
+		float: right;
+		position: sticky;
+	}
+	video
+	{
+		padding-left: 190px;
+	}
