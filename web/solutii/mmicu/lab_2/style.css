@@ -1,0 +1,19 @@
+body > footer{
+    background-color: #aaa;
+    margin: 3% 0;
+    padding: 2% 0;
+}
+body > footer > p{
+    margin-left: 2%;
+    padding-left: 2%;
+}
+
+body{
+    background-color: #ccc;
+    margin: 0 20%;
+    margin-top: 5%
+}
+
+time {
+    color: blue;
+}
