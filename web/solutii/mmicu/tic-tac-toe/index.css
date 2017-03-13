@@ -1,0 +1,30 @@
+td {
+    border: 1px solid #999;
+    width: 50px;
+    height: 50px;
+}
+
+
+.x {
+    border: 2px solid red;
+}
+.win {
+    border: 3px solid green;
+}
+
+
+.x:before {
+    content: '   x';
+
+}
+
+.y {
+    border: 2px solid gray;
+
+}
+
+
+.y:before {
+    content: '   0';
+
+}
